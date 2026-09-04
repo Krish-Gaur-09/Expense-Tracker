@@ -1,6 +1,6 @@
 # Expense Tracker 💰
 
-A beginner-friendly Python command-line application for managing daily expenses.
+A beginner-friendly Python command-line application for managing and tracking daily expenses.
 
 ## Features
 
@@ -11,7 +11,9 @@ A beginner-friendly Python command-line application for managing daily expenses.
 * Store expense amount
 * View all expenses
 * Calculate total spending
-* Menu-driven interface
+* Update existing expenses
+* Delete expenses
+* Menu-driven Command Line Interface (CLI)
 
 ## Technologies Used
 
@@ -21,15 +23,18 @@ A beginner-friendly Python command-line application for managing daily expenses.
 
 * Lists
 * Dictionaries
-* Loops
+* While Loop
+* For Loop
 * Conditional Statements
 * User Input
 * Type Conversion
+* List Methods
+* Dictionary Operations
 * Basic Data Processing
 
 ## How to Run
 
-1. Clone or download this repository.
+1. Download or clone this repository.
 2. Open the project folder.
 3. Run the following command:
 
@@ -37,14 +42,14 @@ A beginner-friendly Python command-line application for managing daily expenses.
 python expense_tracker.py
 ```
 
-## Future Improvements
+## Project Structure
 
-* Add expense deletion
-* Add expense editing
-* Category-wise expense analysis
-* CSV file storage
-* Data visualization using Matplotlib
-* Input validation
+```text
+Expense-Tracker/
+│
+├── expense_tracker.py
+└── README.md
+```
 
 ## Project Status
 
