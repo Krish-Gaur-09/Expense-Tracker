@@ -18,9 +18,9 @@ while True:
 #1. ADD EXPENSES
     if(choice==1):
         date=input("Enter money spending date (ex-> 01 January 2000): ")
-        category=input("Enter product's category (ex-> Food, Travel, Clothes etc): ")
-        description=input("Enter product's description: ")
-        amount=float(input("Enter product's amount: "))
+        category=input("Enter category (ex-> Food, Travel, Clothes etc): ")
+        description=input("Enter description: ")
+        amount=float(input("Enter amount: "))
 
         expense = {
             "date":date, 
